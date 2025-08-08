@@ -1,0 +1,27 @@
+package DAY3;
+
+import java.util.Scanner;
+
+public class ifselseif {
+	
+	public static void main(String[] args){
+		Scanner sc= new Scanner(System.in);
+		int a= sc.nextInt();
+		if(a % 7==0  &&  a  %  9==0)
+		{
+			System.out.println("fizze");
+		}
+		else if(a % 9==0)
+		{
+			System.out.println("bizz");
+		}
+		else if(a % 7==0)
+		{
+			System.out.println("fizze");
+			
+		}
+		
+		
+	}
+
+}
