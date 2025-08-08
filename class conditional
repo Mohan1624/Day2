@@ -1,0 +1,26 @@
+package DAY3;
+
+public class conditional {
+
+	public static void main(String[] args) {
+         int num=5;
+         if(num==5)
+         {
+        	 System.out.println("The number five");
+         }
+         if(num>8)
+         {
+        	 System.out.println("The number eight");
+         }
+         if(num>10)
+         {
+        	 System.out.println("The number ten");
+         }
+         else
+         {
+        	 System.out.println("Nothing");
+        	 
+         }
+	}
+
+}
