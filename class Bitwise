@@ -1,0 +1,23 @@
+package Day2;
+
+public class BitwisE {
+
+	public static void main(String[] args) {
+		
+		int num = 8;        
+		num += 2;      
+		num -= 5;     
+		num *= 2;     
+		num %= 6;    
+		int num2 = 21;   
+		System.out.println(num==8 && num2==21);    
+		System.out.println(num==5 || num2==21);      
+		System.out.println(!(num<num2));      
+		System.out.println(!(num>num2));        
+		System.out.println(num);
+	    System.out.println(num << num2);
+	    System.out.println(num >> num2);
+
+	}
+
+}
